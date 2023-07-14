@@ -87,7 +87,7 @@
   $unmae= "root";
   $password = "";
 
-  $db_name = "visitjaybeee";
+  $db_name = "travel";
 
   $conn = mysqli_connect($sname, $unmae, $password, $db_name);
   if ($conn->connect_error) {
